@@ -17,7 +17,8 @@ Answer the following questions:
 2. assertEquals run the `equals` method while assertSame run the `==` method
 
 ```assertEquals("a","a")
-assertSame("a","a") ```
+assertSame("a","a") 
+```
 
 On both cases it return true since "a" == "a" and ("a").equals("a") are both true
 
@@ -25,7 +26,8 @@ On both cases it return true since "a" == "a" and ("a").equals("a") are both tru
 String t1 = new String("a")
 String t2 = new String("a")
 assertEquals(t1,t2)
-assertSame(t1,t2) ```
+assertSame(t1,t2)
+```
 
 On the equals, it runs t1.equals(t2), wich return true since their content are equals
 On the same, it runs t1 == t2, wich return false since they are two different objetcs.
